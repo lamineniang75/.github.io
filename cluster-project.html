@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projet Cluster Hyper-V - Lamine Niang</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f6f8;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #1a3c34;
+      color: white;
+      text-align: center;
+      padding: 1.5em;
+    }
+    header h1 {
+      font-size: 2em;
+    }
+    nav {
+      background-color: #264653;
+      padding: 1em;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 1.1em;
+    }
+    nav a:hover {
+      color: #2a9d8f;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 1.5em;
+    }
+    .section {
+      margin-bottom: 1.5em;
+      background-color: white;
+      padding: 1.2em;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .section h2 {
+      font-size: 1.6em;
+      margin-bottom: 0.6em;
+      color: #1a3c34;
+    }
+    .section p {
+      font-size: 1em;
+      margin-bottom: 1em;
+    }
+    .section a.download-pdf {
+      display: inline-block;
+      background-color: #2a9d8f;
+      color: white;
+      padding: 0.8em 1.5em;
+      border-radius: 4px;
+      text-decoration: none;
+      font-size: 1em;
+    }
+    .section a.download-pdf:hover {
+      background-color: #1a3c34;
+    }
+    footer {
+      background-color: #1a3c34;
+      color: white;
+      text-align: center;
+      padding: 1em;
+      font-size: 0.9em;
+    }
+    @media (max-width: 600px) {
+      .container {
+        padding: 1em;
+      }
+      .section {
+        padding: 1em;
+      }
+      header h1 {
+        font-size: 1.8em;
+      }
+      .section h2 {
+        font-size: 1.4em;
+      }
+      .section p, .section a.download-pdf {
+        font-size: 0.9em;
+      }
+      nav a {
+        font-size: 1em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Mise en place d’un cluster Hyper-V</h1>
+  </header>
+  <nav>
+    <a href="index.html">Retour au Portfolio</a>
+  </nav>
+  <div class="container">
+    <div class="section">
+      <h2>Introduction</h2>
+      <p>Configuration d’un cluster Hyper-V pour assurer la haute disponibilité des machines virtuelles.</p>
+    </div>
+    <div class="section">
+      <h2>Configuration</h2>
+      <p>Installation de Hyper-V sur deux serveurs Windows Server, configuration du stockage partagé via iSCSI, et mise en place du cluster avec basculement automatique.</p>
+    </div>
+    <div class="section">
+      <h2>Documentation</h2>
+      <p>Retrouvez le rapport détaillé du projet de cluster Hyper-V ci-dessous.</p>
+      <a href="pdfs/cluster-project.pdf" class="download-pdf" download>Télécharger le rapport</a>
+    </div>
+  </div>
+  <footer>
+    <p>© 2025 Lamine Niang. Tous droits réservés.</p>
+  </footer>
+</body>
+</html>
